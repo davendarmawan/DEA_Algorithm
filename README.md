@@ -20,9 +20,9 @@ In order to calculate object distances relative to the cameras, we needed to fin
 In order to understand how the system work, we need to understand the geometry concept of the Stereo Camera.
 
 #### Single Camera Concept
+<p align="center">
 <img src="images/singlecam.png" alt="Single Camera Geometry" width="300"/>
-
-<br>
+</p>
 
 Based on the Single Camera image above, it is inferred that the distance of the object (car) relative to the camera is,
 
@@ -44,8 +44,6 @@ d = \frac{d_2}{2\tan\theta}
 
 #### Projection of Single Camera's Viewpoint
 <img src="images/singleviewpoint.png" alt="Single Camera Projection" width="300"/>
-
-<br>
 
 If we project the camera's viewpoint (across the vertical line of $d_2$) onto a screen, we are able to get the properties of the image acquired by the camera.
 
@@ -75,11 +73,7 @@ But on this section, several variables are still unknown, such as $d_3$, $\theta
 
 <img src="images/stereocam.png" alt="Stereo Camera" width="300"/>
 
-<br>
-
 <img src="images/stereocamview.png" alt="Stereo Camera Viewpoint" width="300"/>
-
-<br>
 
 If we add a second camera, we are able to calculate the variable $d_3$ based on both camera viewpoints.
 
