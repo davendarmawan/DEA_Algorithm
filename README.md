@@ -43,7 +43,9 @@ d = \frac{d_2}{2\tan\theta}
 ```
 
 #### Projection of Single Camera's Viewpoint
+<p align="center">
 <img src="images/singleviewpoint.png" alt="Single Camera Projection" width="300"/>
+</p>
 
 If we project the camera's viewpoint (across the vertical line of $d_2$) onto a screen, we are able to get the properties of the image acquired by the camera.
 
@@ -70,10 +72,11 @@ distance = \frac{Nd_3}{2P\tanθ} + f
 But on this section, several variables are still unknown, such as $d_3$, $\theta$ and $f$.
 
 #### Stereo Camera Concept
-
+<p align="center">
 <img src="images/stereocam.png" alt="Stereo Camera" width="300"/>
 
 <img src="images/stereocamview.png" alt="Stereo Camera Viewpoint" width="300"/>
+</p>
 
 If we add a second camera, we are able to calculate the variable $d_3$ based on both camera viewpoints.
 
