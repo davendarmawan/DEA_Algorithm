@@ -1,4 +1,4 @@
-# The Implementation of Distance Estimation Algorithm with ESP32-CAM-based Stereo Camera
+# The Implementation of Distance Estimation Algorithm on an ESP32-CAM-based Stereo Camera
 > This repository is used to store files and documentations related to the Distance Estimation Algorithm (DEA) project.
 
 ### External Links
@@ -12,9 +12,9 @@
 ### Brief Description
 **Distance Estimation Algorithm (DEA)** is an algorithm that can be used to estimate distances of several objects from a certain point. The distances are calculated by using the concept of geometry and trigonometry, with the help of object detection algorithms.
 
-On this project, we had to use two ESP32-CAMs that were sticked parallelly on a wooden board. The distance between both camera is measured to be 14.5 cms. These two cameras served as the stereo camera on this project.
+On this project, we had to use two ESP32-CAMs that were placed parallelly on a wooden board. The distance between both camera was measured to be 14.5 cms. These two cameras served as the stereo camera on this project.
 
-In order to calculate object distances relative to the cameras, we needed to find the ratio of pixel differences between the image width and the object widths. This ratio was then used to estimate the distance. Object width could be calculated by using an object detection algorithm to draw bounding boxes around the designated object, and to calculate its width based on the coordinates of the bounding box (in pixels). On this project, we used YOLO (*You Only Look Once*) algorithm to run the object detection. 
+In order to calculate object distances relative to the cameras, it was needed to find the ratio of pixel differences between the image width and the object widths. This ratio was then used to estimate the distance. Object width could be calculated by using an object detection algorithm to draw bounding boxes around the designated object, and to calculate its width based on the coordinates of the bounding box (in pixels). On this project, we used YOLO (*You Only Look Once*) algorithm to run the object detection. 
 
 ### Geometry in Detail
 In order to understand how the system work, we need to understand the geometry concept of the Stereo Camera.
@@ -93,7 +93,7 @@ On this section, several variables are still unknown, such as $\theta$ and $f$. 
 Therefore, $\theta$ and $f$ by using the system of linear equations.
 
 ### Folder Information
-Every source codes can be accessed on the `Source Codes` folder. The `Source Codes` folder contains additional folders which shows the function of each source codes.
+Every source codes can be accessed under the `Source Codes` folder. The `Source Codes` folder contains more additional folders which are named according to the function of every source codes.
 
 The folders are as follows,
 - Folder `Distance Estimation Algorithm (DEA)`: Main program which is used to fetch images from two ESP32-CAMs and predict the object class based on the YOLO model. The distance is also calculated using this source code (implementing the formulas described above).
