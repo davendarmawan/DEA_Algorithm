@@ -3,7 +3,7 @@
 
 ### External Links
 - [Distance Estimation Algorithm (DEA) Project Report](https://drive.google.com/file/d/1stVMjWo_e8pQuYwJr5704dwE-qUeXETI/view?usp=sharing)
-- [Product Introduction and Demonstration](https://drive.google.com/file/d/1KExDEG55TohjloNicQDEpm_vvVpYXwp8/view?usp=sharing)
+- [Product Introduction and Demonstration Video](https://drive.google.com/file/d/1KExDEG55TohjloNicQDEpm_vvVpYXwp8/view?usp=sharing)
 
 ### Authors
 - Daven Darmawan Sendjaya (13221062@mahasiswa.itb.ac.id)
